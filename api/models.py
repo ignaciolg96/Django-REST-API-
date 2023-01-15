@@ -2,6 +2,7 @@ from django.db import models
 from django.core.validators import MinValueValidator
 from decimal import Decimal
 from django.db.models import Avg, Max, Min, Sum
+from django.utils import timezone
 
 
 # Create your models here.

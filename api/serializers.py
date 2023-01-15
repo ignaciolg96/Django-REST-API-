@@ -12,3 +12,8 @@ class MedidorSerializer(serializers.ModelSerializer):
         model = Medidor
         fields = ('id', 'llave_id', 'nombre','estadisticas')
 
+class StatSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Medidor
+        fields = ('id','estadisticas')
+
